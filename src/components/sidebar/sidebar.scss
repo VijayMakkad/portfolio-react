@@ -12,7 +12,6 @@
         bottom: 0;
         width: 400px;
         background:white;
-        z-index: 1;
         .links{
             position: absolute;
             width: 100%;
@@ -38,10 +37,7 @@
         background-color: transparent;
         border:none;
         cursor: pointer;
-        z-index: 1;
         
        }
-       svg{
-            z-index: 1;
-        }
+
 }

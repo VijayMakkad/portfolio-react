@@ -1,5 +1,7 @@
 import "./about.scss"
+import React from "react";
 import { motion, useInView} from "framer-motion"
+ import { Link } from 'react-router-dom';
 import { useEffect, useRef } from "react";
 import Typewriter from 'typewriter-effect/dist/core';
 
@@ -51,7 +53,10 @@ const About = () => {
                 <img src="/bg.jpg" alt="" />
                 
                 <h1>I am <motion.b whileHover={{color:"orange"}}>Passionate</motion.b></h1>
-            <button>Resume</button>
+                <a href="https://drive.google.com/file/d/1kMMs_g6Jns7pdODV5v0sR8kyyAUNIJPK/view" target="_blank" rel="noopener noreferrer">
+                <button>Resume</button>
+                </a>
+                
             </div>
             <div className="title" >
 

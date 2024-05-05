@@ -22,7 +22,10 @@
             align-items: center;
             justify-content: center;
             gap: 20px;
-
+            hr{
+                width: 100%;
+                border: 1px solid black;
+            }
             a{
                 font-size: 30px;
             }

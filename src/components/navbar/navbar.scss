@@ -26,6 +26,8 @@
         .social{
             display: flex;
             gap: 20px;
+            z-index: 10;
+            cursor: pointer;
             img{
                 width: 36px;
                 height: 36px;

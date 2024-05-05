@@ -1,7 +1,6 @@
 import "./about.scss"
 import React from "react";
-import { motion, useInView} from "framer-motion"
- import { Link } from 'react-router-dom';
+import { motion, useInView} from "framer-motion";
 import { useEffect, useRef } from "react";
 import Typewriter from 'typewriter-effect/dist/core';
 
@@ -18,7 +17,7 @@ const variants={
         y:0,
         scale:1,
         transition:{
-            duration:2,
+            duration:1.5,
             staggerChildren:0.1,
         
         }

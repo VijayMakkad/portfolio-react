@@ -25,15 +25,18 @@ section{
     scroll-snap-align: center;
 }
 
-.course{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .box{
-    width: 200px;
-    height: 200px;
-    background-color: #fff;
+@mixin mobile {
+  @media (max-width: 738px) {
+    @content;
+  }
 }
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: 1366px) {
+    @content;
+  }
 }

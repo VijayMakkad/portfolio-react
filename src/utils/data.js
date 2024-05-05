@@ -5,8 +5,12 @@ export const SKILLS = [
     skills: [
       { skill: 'HTML5', percentage: '80%' },
       { skill: 'CSS3 (Sass/SCSS)', percentage: '90%' },
+      { skill: 'Tailwind CSS', percentage: '65%' },
       { skill: 'JavaScript', percentage: '75%' },
+      { skill: 'TypeScript', percentage: '60%' },
       { skill: 'React.js', percentage: '80%' },
+      { skill: 'Next.js', percentage: '60%' },
+      { skill: 'React-Native', percentage: '70%' },
     ],
   },
   {
@@ -15,6 +19,12 @@ export const SKILLS = [
     skills: [
       { skill: 'Node.js', percentage: '70%' },
       { skill: 'Express.js', percentage: '65%' },
+      { skill: 'MySQL', percentage: '80%' },
+      { skill: 'PostgreSQL', percentage: '70%' },
+      { skill: 'Supabase', percentage: '80%' },
+      { skill: 'FireBase', percentage: '40%' },
+      { skill: 'Vue.js', percentage: '50%' },
+      { skill: 'Flask', percentage: '80%' },
     ],
   },
   {
@@ -23,17 +33,24 @@ export const SKILLS = [
     skills: [
       { skill: 'Git & GitHub', percentage: '85%' },
       { skill: 'Visual Studio Code', percentage: '75%' },
-      { skill: 'Webpack', percentage: '60%' },
-      { skill: 'Responsive Design', percentage: '70%' },
+      { skill: 'Figma', percentage: '80%' },
+      { skill: 'Blender', percentage: '90%' },
+      { skill: 'Photoshop', percentage: '60%' },
+       {skill: 'Sicikit-Learn', percentage: '75%' },
+      { skill: 'MatLab', percentage: '70%' },
+      { skill: 'Seaborn', percentage: '60%' },
     ],
   },
   {
     title: 'Other Skills',
     icon: '/box.png',
     skills: [
-      { skill: 'Problem-solving', percentage: '80%' },
-      { skill: 'Collaboration', percentage: '85%' },
-      { skill: 'Attention to Detail', percentage: '75%' },
+      { skill: 'C', percentage: '80%' },
+      { skill: 'C++', percentage: '90%' },
+      { skill: 'Python', percentage: '85%' },
+      { skill: 'Java', percentage: '65%' },
+      { skill: 'Pandas and Numpy', percentage: '85%' },
+      { skill: 'Solidity', percentage: '45%' },
     ],
   },
 ]

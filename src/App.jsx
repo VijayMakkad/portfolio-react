@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Project from "./components/project/Project";
 import Skills from "./components/skills/Skills";
+import ToGoTop from "./components/ToGoTop";
 const App = () => {
   return <div>
     <section id='Home'>
@@ -18,9 +19,7 @@ const App = () => {
     <section id='Projects'><Parallax type="projects"/></section>
     <Project/>
     <section id='Contact'><Contact/></section>
-
-
-  </div>;
+    </div>;
 };
 
 export default App;

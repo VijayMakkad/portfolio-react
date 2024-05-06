@@ -32,7 +32,7 @@ const sliderVariants={
         transition:{
             repeat:Infinity,
             repeatType:"mirror",
-            duration:14,
+            duration:10,
             staggerChildern:0.1,
         }
     },

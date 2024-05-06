@@ -63,7 +63,7 @@ const Contact = () => {
             </motion.div>
         </motion.div>
         <div className="formContainer">
-            <motion.div className="phoneSVG" initial={{opacity:1}} whileInView={{opacity:0}} transition={{delay:1.5,duration:1}}>
+            <motion.div className="phoneSVG" initial={{opacity:1}} whileInView={{opacity:0}} transition={{delay:1,duration:1}}>
 
             <svg width="450px" height="450px" viewBox="0 0 32.666 32.666">
 <motion.path 
@@ -81,7 +81,7 @@ d="M5.13641 12.764L8.15456 9.08664C8.46255 8.69065 8.61655 8.49264 8.69726 8.270
              ref={formRef}
              initial={{opacity:0}}
              whileInView={{opacity:1}}
-             transition={{delay:2.5,duration:1}} >
+             transition={{delay:2,duration:1}} >
                 <input type="text" required placeholder="Name" name="name" />
                 <input type="text" required placeholder="Email" name="name" />
                 <textarea rows={8} placeholder="Message" name="message"/>

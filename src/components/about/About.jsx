@@ -58,8 +58,8 @@ const About = () => {
                 
             </div>
             <div className="title" >
-
-                <h1>about <motion.b whileHover={{color:"orange"}} ref={typewriterRef}></motion.b></h1>
+                <h1 className="typo"><span>about</span> <span><motion.b whileHover={{color:"orange"}} ref={typewriterRef}></motion.b></span>
+                </h1>
             </div>
         </motion.div>
         <motion.div className="listContainer" variants={variants}>
